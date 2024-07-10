@@ -1,0 +1,11 @@
+➜  pip install --upgrade pip
+
+#Install dependencies
+
+➜  funcFastAPIAzure1 pip install -r requirements.txt
+
+#Run Locally 
+
+➜  funcFastAPIAzure1 uvicorn app.main:app --reload
+
+# Open http://127.0.0.1:8000/docs#/ in browser to get the  Swagger/Open API test harness
